@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{1b42d59a-e841-4794-a4ba-f41a0c1d6786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{68a1ba97-7e81-4788-bb6c-4c2fbdfa63c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f6742aa9-c19e-43d8-8d69-5a506851e154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SharedMemory">
+      <UniqueIdentifier>{85e9aec3-b0b6-46b4-ae78-47c3ac80e650}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Structs.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\GetBaseAddress.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SharedMemory\CreateSharedMemory.h">
+      <Filter>Main\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SharedMemory\ThreadLoop.h">
+      <Filter>Main\SharedMemory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\Entry.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

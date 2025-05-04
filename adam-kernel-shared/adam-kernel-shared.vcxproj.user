@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SignMode>TestSign</SignMode>
+    <TestCertificate>CN="WDKTestCert Admin,133904013228805023" | 7E3AF8F62FBF55EEF2F83B108B9D3789BAA5C8E3</TestCertificate>
+  </PropertyGroup>
+</Project>
